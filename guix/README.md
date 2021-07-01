@@ -3,6 +3,7 @@
 Guix is a package manager and a linux operating system focused on maintaining sources. What's interesting about them is that they work towards reducing the size of the bootstrapping set of binaries required to build an OS from scratch.
 
 Blog article: https://guix.gnu.org/blog/2019/guix-reduces-bootstrap-seed-by-50/
+Update: https://guix.gnu.org/en/blog/2020/guix-further-reduces-bootstrap-seed-to-25/
 
 ## Environment
 Fedora with 4 cpu cores

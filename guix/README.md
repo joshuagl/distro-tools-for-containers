@@ -75,6 +75,12 @@ It takes a very very long time to get a system ready for building.
     * The resulting docker image from `docker load` is around 700MB large, which is larger than the debian based golang container image.
 	* `guix pack` now supports [creating deb packages](https://git.savannah.gnu.org/cgit/guix.git/commit/?id=82daab42811a2e3c7684ebdf12af75ff0fa67b99)
 	    * Use it like `guix pack --format=deb --symlink=/usr/bin/hello=bin/hello hello`
+* It is increasingly easy to build variants of packages in Guix. You can [derive
+   variants](http://guix.gnu.org/manual/en/html_node/Defining-Package-Variants.html)
+  of packages (with different configuration options, different upstream
+  versions, different dependencies, etc) or apply
+  [build time transformations](http://guix.gnu.org/manual/en/html_node/Package-Transformation-Options.html)
+  to do many of those things without even creating/editing a recipe.
 
 ## References
 

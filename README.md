@@ -21,11 +21,11 @@ This is work towards Nisha and Joshua's talk for KubeCon NA 2019: https://kccncn
   3. Runtime OS for SDK/Framework
 
 ## List of tools
-- Nixery
-- Guix
-- Buildroot
-- Debos 
-- Yocto Project
+- [Nix](https://github.com/NixOS/nix)/[Nixery](https://github.com/tazjin/nixery)
+- [Guix](https://guix.gnu.org)
+- [Buildroot](https://buildroot.org)
+- [Debos](https://github.com/go-debos/debos)
+- [Yocto Project](https://www.yoctoproject.org)/[OpenEmbedded](https://www.openembedded.org)
 
 ## Factors to Consider
 When comparing image construction tools the following factors are worth bearing in mind, each of which is desirable for an image creation tool (Note: no consideration has been given to weighting of factors at this time, the following list is unordered):
@@ -66,13 +66,16 @@ Compare on:
 - ease of image/rootfs update
 
 Note gaps:
-- build system support (i.e Guix lacks Go and Bazel, YP lacks Go, Bazel & Gem)
-- rough edges (Guix import tools are maintainer-centric, require hoops for non-maintainer; YP has a learning cliff; Nix has multiple unwieldy tools and a gnarly DSL)
-- everything other than YP doesn't have a SBoM generator
+- build system support (i.e Guix lacks Go and Bazel, Yocto Project lacks Go,
+  Bazel & Gem)
+- rough edges (Guix import tools are maintainer-centric, require hoops for
+  non-maintainer; Yocto Project has a learning cliff; Nix has multiple unwieldy
+  tools and a gnarly DSL)
+- everything other than Yocto Project doesn't have an SBoM generator
 
 
 ## Addendum
 Recommend the following tools for container analysis and introspection:
 * [container-diff](https://github.com/GoogleContainerTools/container-diff)
 * [dive](https://github.com/wagoodman/dive)
-* [tern](https://github.com/vmware/tern)
+* [tern](https://github.com/tern-tools/tern)

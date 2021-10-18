@@ -85,3 +85,6 @@ It takes a very very long time to get a system ready for building.
 ## References
 
 - [A packaging tutorial for Guix](https://guix.gnu.org/blog/2018/a-packaging-tutorial-for-guix/)
+- [Scheme API](https://guix.gnu.org/en/manual/en/html_node/Programming-Interface.html)
+- [Packaging EDSL](https://guix.gnu.org/manual/en/html_node/Defining-Packages.html)
+- [A Scheme Crash Course](https://guix.gnu.org/cookbook/en/html_node/A-Scheme-Crash-Course.html)

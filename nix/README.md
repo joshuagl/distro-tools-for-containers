@@ -17,8 +17,9 @@ distributions, but all of our examples used Guix _despite_ a tacit admission tha
 was unlikely to become a defacto tool in the cloud arena (due to license and GNU tool
 bias). Why?
 
-* I did not have the time to learn either the Nix or Guix Scheme derivation languages
-  while working on the talk – `guix` is more usable as a command-line tool.
+* I did not have the time to learn either the Nix expression language or Guix's
+  [EDSL](https://guix.gnu.org/manual/en/html_node/Defining-Packages.html) while
+  working on the talk – `guix` is usable as a command-line tool.
   * The command-line tool in `guix pack` has only grown more, and more interesting,
     options in the interim as they implement more `spack` inspired features.
   * Hallway discussion suggested that Nix derivations are more difficult to
@@ -46,3 +47,9 @@ Guix has several neat features that I would love to see in nix:
 
 * [Using Nix to build Docker images](https://yann.hodique.info/blog/using-nix-to-build-docker-images/)
 * [Cheap Docker images with Nix](http://lethalman.blogspot.com/2016/04/cheap-docker-images-with-nix_15.html)
+* [Nix expression language](https://nixos.org/manual/nix/stable/#ch-expression-language)
+* [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) on
+  nixos.wiki
+
+## Useful nix things
+* [`nix-diff`](https://github.com/Gabriel439/nix-diff)

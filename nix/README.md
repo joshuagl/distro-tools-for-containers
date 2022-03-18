@@ -31,6 +31,7 @@ bias). Why?
 
 ## Some notes of seemingly relevant commands/features:
 
+* [`nix` 2.4](https://discourse.nixos.org/t/nix-2-4-released/15822) (first release in ~2 years)
 * [`nix bundle`](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-bundle.html) – would that it could create container images like `guix pack`
 
 ## `guix` features to find for or implement in `nix`

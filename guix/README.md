@@ -90,3 +90,4 @@ It takes a very very long time to get a system ready for building.
 - [A Scheme Crash Course](https://guix.gnu.org/cookbook/en/html_node/A-Scheme-Crash-Course.html)
 - [Nonguix channel](https://gitlab.com/nonguix/nonguix)
 - [System Crafters wiki -- Nonguix](https://wiki.systemcrafters.cc/guix/nonguix-installation-guide)
+- [Building a Secure Software Supply Chain with GNU Guix](https://programming-journal.org/2023/7/1/)

@@ -54,6 +54,7 @@ Guix has several neat features that I would love to see in nix:
 * Signs of cloud adoption/interest in OpenEBS
   [mayastor](https://github.com/openebs/mayastor/blob/develop/doc/build.md)
   and CNCF TAG Security Supply Chain WG Software Factory.
+* [nixpacks](https://github.com/railwayapp/nixpacks)
 
 ## Useful nix things
 * [`nix-diff`](https://github.com/Gabriel439/nix-diff)

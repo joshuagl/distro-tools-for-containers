@@ -81,6 +81,10 @@ It takes a very very long time to get a system ready for building.
   versions, different dependencies, etc) or apply
   [build time transformations](http://guix.gnu.org/manual/en/html_node/Package-Transformation-Options.html)
   to do many of those things without even creating/editing a recipe.
+* [https://guix.gnu.org/en/blog/2023/the-filesystem-hierarchy-standard-comes-to-guix-containers/](https://guix.gnu.org/en/blog/2023/the-filesystem-hierarchy-standard-comes-to-guix-containers/)
+  introduces the ability to run "containers" in `guix shell` which present an
+  FHS compatible file-system layout. TBD whether we can also use this in
+  container images?
 
 ## References
 

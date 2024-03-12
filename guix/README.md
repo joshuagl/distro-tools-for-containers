@@ -95,3 +95,4 @@ It takes a very very long time to get a system ready for building.
 - [Nonguix channel](https://gitlab.com/nonguix/nonguix)
 - [System Crafters wiki -- Nonguix](https://wiki.systemcrafters.cc/guix/nonguix-installation-guide)
 - [Building a Secure Software Supply Chain with GNU Guix](https://programming-journal.org/2023/7/1/)
+- [Identifying software](https://guix.gnu.org/en/blog/2024/identifying-software/) gives an excellent summary of Guix features for identifying software, source code and binaries, and further gives a nicer term for JeOS--application bundles.
